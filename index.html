@@ -184,16 +184,63 @@ footer{
 }
 
 @media(max-width:700px){
+    .container{
+        margin:0;
+        border-radius:0;
+    }
+
+    header{
+        padding:30px 20px;
+    }
+
     .section{
-        padding:22px;
+        padding:22px 18px;
     }
 
     header h1{
         font-size:30px;
     }
 
+    header h2{
+        font-size:16px;
+    }
+
+    .grid{
+        gap:15px;
+    }
+
+    table{
+        font-size:14px;
+    }
+
+    th,td{
+        padding:8px;
+    }
+
     .menu-semanal{
         -webkit-overflow-scrolling:touch;
+    }
+}
+
+@media(max-width:480px){
+    header h1{
+        font-size:24px;
+    }
+
+    header h2{
+        font-size:14px;
+    }
+
+    header p{
+        font-size:13px;
+    }
+
+    .section h2{
+        font-size:19px;
+    }
+
+    .card{
+        padding:15px;
     }
 }
 </style>
