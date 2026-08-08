@@ -146,9 +146,9 @@ No debe decir:
 
 Debe utilizar:
 
-* Día 1.
-* Día 2.
-* Día 3.
+* Menú 1.
+* Menú 2.
+* Menú 3.
 * etc.
 
 La razón es que la persona puede comenzar el menú cualquier día de la semana.
@@ -181,7 +181,7 @@ Estos horarios son orientativos, pensados para mantener espaciado de 3 horas ent
 
 ## 6. Menús actualmente agregados
 
-### Día 1
+### Menú 1
 
 Desayuno:
 
@@ -210,7 +210,7 @@ Cena:
 * Atún bajo en sodio con verduras.
 * 2 tostadas horneadas.
 
-### Día 2
+### Menú 2
 
 Desayuno:
 
@@ -235,7 +235,7 @@ Cena:
 * Ensalada de pollo con aguacate.
 * 2 tortillas.
 
-### Día 3
+### Menú 3
 
 Desayuno:
 
@@ -262,7 +262,7 @@ Cena:
 
 * Caldo de verduras con pollo deshebrado.
 
-### Día 4
+### Menú 4
 
 Desayuno:
 
@@ -290,7 +290,7 @@ Cena:
 * 2 quesadillas de queso panela en tortilla de maíz.
 * Ensalada.
 
-### Día 5
+### Menú 5
 
 Desayuno:
 
@@ -318,7 +318,7 @@ Cena:
 * Aguacate.
 * 2 tostadas horneadas.
 
-### Día 6
+### Menú 6
 
 Desayuno:
 
@@ -348,7 +348,7 @@ Cena:
 * Huevo cocido.
 * 2 tortillas.
 
-### Día 7
+### Menú 7
 
 Desayuno:
 
@@ -376,7 +376,7 @@ Cena:
 * Verduras.
 * Aguacate.
 
-### Día 8
+### Menú 8
 
 Este menú fue proporcionado por el usuario.
 
@@ -407,7 +407,7 @@ Cena:
 
 * Yogur natural sin azúcar con fresas.
 
-### Día 9
+### Menú 9
 
 Desayuno:
 
@@ -437,7 +437,7 @@ Cena:
 * 2 quesadillas de queso panela en tortilla de maíz.
 * Ensalada verde.
 
-### Día 10
+### Menú 10
 
 Desayuno:
 
@@ -467,7 +467,7 @@ Cena:
 
 * Caldo de verduras con pollo deshebrado.
 
-### Día 11
+### Menú 11
 
 Desayuno:
 
@@ -603,7 +603,7 @@ Cada vez que proporcione nuevos alimentos o menús:
 
 1. Integrarlos al HTML existente.
 2. No borrar los menús anteriores.
-3. Continuar la numeración: Día 12, Día 13, etc.
+3. Continuar la numeración: Menú 12, Menú 13, etc.
 4. No utilizar nombres de días de la semana.
 5. Completar automáticamente las comidas faltantes.
 6. Mantener coherencia con diabetes e hipertensión.
