@@ -132,6 +132,28 @@ table{
     border-radius:8px;
 }
 
+.pdf-bar{
+    text-align:center;
+    padding:18px;
+    background:#fff;
+    border-bottom:1px solid #eee;
+}
+
+.btn-pdf{
+    background:#2E7D32;
+    color:#fff;
+    border:none;
+    padding:12px 28px;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+    box-shadow:0 3px 8px rgba(0,0,0,.2);
+}
+
+.btn-pdf:hover{
+    background:#256428;
+}
+
 .small{
     font-size:14px;
 }
@@ -154,6 +176,10 @@ tr:nth-child(even){
 @media print{
 body{
 background:white;
+}
+
+.no-print{
+    display:none !important;
 }
 
 .container{
@@ -256,6 +282,10 @@ footer{
 <h2>Para Personas con Diabetes e Hipertensión</h2>
 <p>Adulto mayor de 75 años</p>
 </header>
+
+<div class="pdf-bar no-print">
+<button class="btn-pdf" onclick="window.print()">📄 Descargar como PDF</button>
+</div>
 
 <div class="section">
 
